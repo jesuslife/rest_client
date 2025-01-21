@@ -3,7 +3,7 @@ Write funcionalities
 """
 
 
-def subtract(a: int, b: int) -> int:
+def subtract(x: int, y: int) -> int:
     """Subtract two numbers
 
     Args:
@@ -13,7 +13,7 @@ def subtract(a: int, b: int) -> int:
     Returns:
         int: Result of the subtraction of a and b
     """
-    return a - b
+    return x - y
 
 
 def sum(a: int, b: int) -> int:
