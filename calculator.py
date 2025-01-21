@@ -26,4 +26,6 @@ def sum(a: int, b: int) -> int:
     Returns:
         int: sum of a and b
     """
+    if a is not isinstance(a, int) or b is not isinstance(b, int):
+        raise ValueError("Both a and b must be integers")
     return a + b
