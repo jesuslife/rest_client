@@ -14,3 +14,16 @@ def subtract(a: int, b: int) -> int:
         int: Result of the subtraction of a and b
     """
     return a - b
+
+
+def sum(a: int, b: int) -> int:
+    """Sum two numbers
+
+    Args:
+        a (int): first number
+        b (int): second number
+
+    Returns:
+        int: sum of a and b
+    """
+    return a + b
