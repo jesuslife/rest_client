@@ -16,7 +16,7 @@ def subtract(a: int, b: int) -> int:
     return a - b
 
 
-def sum(a: int, b: int) -> int:
+def sum(x: int, y: int) -> int:
     """Sum two numbers
 
     Args:
@@ -26,6 +26,6 @@ def sum(a: int, b: int) -> int:
     Returns:
         int: sum of a and b
     """
-    if a is not isinstance(a, int) or b is not isinstance(b, int):
+    if x is not isinstance(a, int) or y is not isinstance(b, int):
         raise ValueError("Both a and b must be integers")
-    return a + b
+    return x + y
